@@ -1,47 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      padding: 20px;
-    }
-    .contact-form {
-      background: #fff;
-      padding: 30px;
-      max-width: 500px;
-      margin: auto;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background-color: #6a5091;
-      color: white;
-      padding: 12px;
-      border: none;
-      border-radius: 4px;
-      width: 100%;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-    .success {
-      color: green;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
 </head>
 <body>
 
